@@ -5,6 +5,7 @@ const tiles = [
     { text: "a", class: "yellow", sound: "a.mp3", zone: "vowels" },
     { text: "t", class: "red", sound: "t.mp3", zone: "ending-sounds" },
     { text: "ed", class: "purple", sound: "ed.mp3", zone: "suffixes" }
+    { test: "b", class: "green", zone: "consonants"}
 ];
 
 function createTile(tile) {
